@@ -1,0 +1,128 @@
+.booker{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.main-title
+{
+    font-weight: 700;
+    font-size: 22px;
+    color: #697899;
+}
+.booking-1{
+    padding: 25px 0px 25px 25px;
+    border: 1px solid silver;
+    border-radius: 8px;
+}
+
+.new{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+    background-color: #40cbb4;
+    width: 40px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.name-booker{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.name-booker span{
+    color: #189ad3;
+}
+
+
+
+.formalities i.fa-check-circle{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #40cbb4;
+}
+
+.formalities i.fa-trash-o{
+    margin-left: 10px;
+    font-size: 40px;
+    margin-right: 10px;
+    color: #189ad3;
+}
+
+.bottom-part{
+    padding-right: 45px;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.content-booking p span{
+    color: #697899;
+
+}
+
+
+
+@media screen and (min-width: 601px) {
+	
+    .formalities{
+        float: right;
+       padding: 8px 5px;
+        width: 120px;
+       border: 1px solid silver;
+       border-top-left-radius: 30px;
+       border-bottom-left-radius: 30px;
+    }
+
+    .content-booking{
+        margin-top: -40px;
+        line-height: 80%;
+        font-size: 14px;
+        color: darkgray;
+        font-weight: 600;
+    }
+
+    .page-item1{
+        margin-left: 40%;
+    }
+	
+  }
+  
+  @media screen and (max-width: 600px) {
+    .formalities{
+        float: right;
+         padding: 8px 5px;
+        width: 120px;
+        border: 1px solid silver;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        margin-top: -130px;
+    }
+
+    .content-booking{
+       
+        line-height: 80%;
+        font-size: 14px;
+        color: darkgray;
+        font-weight: 600;
+    }
+
+    .page-item1{
+        margin-left: 10%;
+    }
+	
+  }
+
+  .page-link{
+      color: #697899;
+  }
+
+  .item-active{
+      background-color: #189ad3;
+      color: white;
+  }
+
+  
